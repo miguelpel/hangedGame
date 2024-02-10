@@ -1,0 +1,35 @@
+{
+    "scene1": {
+        "sceneNumber": 1,
+        "gameState": "scenario",
+        "steps": {
+            "1": {
+                "type": "button",
+                "text": "Btn 1",
+                "onClick": { "goTo": 2 }
+            },
+            "2": {
+                "type": "comment",
+                "text": "comment 1",
+                "wait": 1,
+                "then": { "goTo": 3 }
+            },
+            "3": {
+                "type": "comment",
+                "text": "comment 2",
+                "wait": 2,
+                "then": { "goTo": 4 }
+            },
+            "4": {
+                "type": "button",
+                "text": "Btn 2",
+                "onClick": { "goTo": 5 }
+            },
+            "5": {
+                "type": "button",
+                "text": "Btn 3",
+                "onClick": "#"
+            }
+        }
+    }
+}

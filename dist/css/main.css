@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'CabinSketch';
+    src: url('../fonts/Cabin_Sketch/CabinSketch-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'CabinSketch';
+    src: url('../fonts/Cabin_Sketch/CabinSketch-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Stylish';
+    src: url('../fonts/Stylish/Stylish-Regular.ttf');
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+}
